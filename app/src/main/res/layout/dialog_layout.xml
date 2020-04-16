@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="92dp"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvShowNameOfProduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="nista ne pise"
+            android:textSize="17dp"
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn_plus"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_min"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_minus"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/minus_min"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_remove"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/trash_min"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_checkIn"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:scaleType="fitStart"
+            android:src="@drawable/check_min"
+            android:textColor="#11FF00"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
